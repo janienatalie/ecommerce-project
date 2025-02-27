@@ -99,7 +99,7 @@ const Home = () => {
       </section>
       <div className="logolist">
         <div className="bg-black py-5">
-          <div className="d-flex flex-row gap-5 justify-content-center px-5">
+          <div className="d-flex flex-row gap-5 justify-content-center">
             <img src="../images/Versace.png" />
             <img src="../images/Zara.png" />
             <img src="../images/Gucci.png" />
@@ -109,8 +109,10 @@ const Home = () => {
         </div>
       </div>
       <section className="section-2">
-        <div className="text-center py-5">
+        <div className="container text-center py-5">
           <h2>NEW ARRIVALS</h2>
+          <div className="product card border-0"></div>
+          <div className="row"></div>
         </div>
       </section>
     </>

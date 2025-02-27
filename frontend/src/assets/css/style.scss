@@ -14,12 +14,14 @@ h1 {
   font-size: 64px;
   font-family: "Integral CF Regular";
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 48px;
   font-family: "Integral CF Regular";
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -75,7 +77,11 @@ header {
 .section-1 {
   .hero {
     background-image: url("../images/hero.png");
-    min-height: 600px;
+    background-size: cover; /* Gambar menyesuaikan ukuran layar */
+    background-position: center; /* Pusatkan gambar */
+    background-repeat: no-repeat;
+    height: 105vh; /* Sesuaikan tinggi dengan layar penuh */
+    width: 100%;
   }
 
   p {
